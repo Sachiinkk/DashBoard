@@ -1,0 +1,53 @@
+.widget-container {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
+  position: relative;
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.widget-name {
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.widget-content {
+  color: #4b5563;
+  font-size: 0.875rem;
+}
+
+.widget-remove-btn {
+  color: #6b7280;
+  transition-property: color;
+  transition-duration: 150ms;
+}
+
+.widget-remove-btn:hover {
+  color: #ef4444;
+}
+
+.widget-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #9ca3af;
+  height: 180px;
+  text-align: center;
+  border-radius: 0.5rem;
+  background-color: #f3f4f6;
+}
+
+.widget-placeholder .placeholder-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+}

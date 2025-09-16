@@ -1,0 +1,68 @@
+[
+  {
+    "id": "cspm-dashboard",
+    "title": "CSPM Executive Dashboard",
+    "widgets": [
+      {
+        "id": "widget-1",
+        "name": "Cloud Accounts",
+        "content": "Connected (2) / Not Connected (2)",
+        "type": "PieChart",
+        "data": [
+          {"name": "Connected", "value": 2, "fill": "#4A6EFC"},
+          {"name": "Not Connected", "value": 2, "fill": "#E5E7EB"}
+        ]
+      },
+      {
+        "id": "widget-2",
+        "name": "Cloud Account Risk Assessment",
+        "content": "Failed (1689) / Warning (681) / Not Available (36) / Passed (7253)",
+        "type": "PieChart",
+        "data": [
+          {"name": "Failed", "value": 1689, "fill": "#E12D39"},
+          {"name": "Warning", "value": 681, "fill": "#F7B307"},
+          {"name": "Not Available", "value": 36, "fill": "#E5E7EB"},
+          {"name": "Passed", "value": 7253, "fill": "#1F892A"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "registry-scan",
+    "title": "Registry Scan",
+    "widgets": [
+      {
+        "id": "widget-5",
+        "name": "Image Risk Assessment",
+        "content": "1470 Total Vulnerabilities",
+        "type": "BarChart",
+        "data": [
+          {"name": "Critical", "value": 9, "fill": "#E12D39"},
+          {"name": "High", "value": 350, "fill": "#F7B307"},
+          {"name": "Medium", "value": 500, "fill": "#6B7280"},
+          {"name": "Low", "value": 611, "fill": "#1F892A"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cwpp-dashboard",
+    "title": "CWPP Dashboard",
+    "widgets": [
+      {
+        "id": "widget-1",
+        "name": "Top 5 Namespace Specific Alerts",
+        "content": "No Graph data available!",
+        "type": "PieChart",
+        "data": []  
+      },
+      {
+        "id": "widget-2",
+        "name": "Workload Alerts",
+        "content": "No Graph data available!",
+        "type": "BarChart",
+        "data": []  
+      }
+    ]
+  }
+]

@@ -1,0 +1,134 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem; 
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  backdrop-filter: blur(6px); 
+}
+
+.nav-left .logo {
+  font-size: 1rem;
+  color: #424242;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-left .logo:hover {
+  color: #1e88e5; 
+  transform: scale(1.05);
+}
+
+.nav-center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.search-box {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 50px;
+  padding: 0.55rem 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-box:focus-within {
+  border-color: #1e88e5;
+  box-shadow: 0 0 0 4px rgba(30, 136, 229, 0.15);
+  background-color: #ffffff;
+}
+
+.search-box svg {
+  color: #b0b0b0;
+  margin-right: 0.75rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.search-box:focus-within svg {
+  color: #1e88e5;
+}
+
+.search-input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 0.95rem;
+  color: #333333;
+  outline: none;
+  padding: 0;
+}
+
+.search-input::placeholder {
+  color: #bdbdbd;
+  font-style: italic;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem; 
+}
+
+.nav-btn-icon {
+  background: none;
+  border: none;
+  padding: 0.65rem;
+  color: #757575;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.1rem;
+}
+
+.nav-btn-icon:hover {
+  color: #1e88e5;
+  background-color: rgba(30, 136, 229, 0.1);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.nav-btn-icon:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.user-profile-placeholder {
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-profile-placeholder:hover {
+  border-color: #1e88e5;
+  transform: scale(1.05);
+}
+
+.notification-badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 8px;
+  height: 8px;
+  background-color: #ff3b30; 
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}
+.nav-btn-icon {
+  position: relative; 
+}
